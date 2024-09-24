@@ -1,0 +1,18 @@
+.cointainer__articles{
+    margin-top: 20px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content:  center;
+}
+
+.cointainer__articles__others{
+    width: 600px;
+    min-width: 600px;
+}
+
+header {
+    margin-top: 15px;     
+    display: flex;
+    justify-content: center;
+}

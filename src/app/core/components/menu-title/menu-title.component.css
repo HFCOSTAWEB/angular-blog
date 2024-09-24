@@ -1,0 +1,18 @@
+.container__mnu-title{
+    color: white;
+}
+
+.container__mnu-title > hr {
+    margin-top: 15px;
+    margin-bottom: 5px;    
+}
+
+.container__mnu-title > h1 {
+    margin-top: 6px;
+    margin-bottom: 6px;    
+    font-size: 80px;
+    font-family: 'segoe UI';
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+}
