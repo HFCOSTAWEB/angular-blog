@@ -7,9 +7,10 @@ import { AppComponent } from './app.component'; // Incluir o AppComponent
 
 import { HomeComponent } from './pages/home/home.component';
 import { ComponentsModule } from './core/components/components.module'; // Incluir o AppComponent 
+import {ContentComponent } from './pages/content/content.component';
 
 @NgModule({
-  declarations: [AppComponent,  HomeComponent],
+  declarations: [AppComponent,  HomeComponent, ContentComponent],
   imports: [
     CommonModule,
     AppRoutingModule,
@@ -18,6 +19,6 @@ import { ComponentsModule } from './core/components/components.module'; // Inclu
     ComponentsModule
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent ]
 })
 export class AppModule { }

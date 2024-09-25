@@ -1,8 +1,3 @@
-   <header>
-    <app-menu-bar></app-menu-bar>
-  </header>
-
-  
 <app-menu-title></app-menu-title>
 <div class="cointainer__articles">
     <div class="articles__main">
@@ -15,13 +10,17 @@
         [imagem]="'https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/.NET_Core_Logo.svg/512px-.NET_Core_Logo.svg.png'"
         [titulo]="'.Net'"
         [descricao]="'O .NET é uma plataforma de desenvolvimento gratuita multiplataforma e de código aberto para criar muitos tipos de aplicativos. Ele pode executar programas escritos em vários idiomas, com C# sendo os mais populares. Ele depende de um runtime de alto desempenho usado em produção por muitos aplicativos de alta escala.'"
+        [link]="'content'"        
+        [id]="'1'"        
         >
        </app-small-card>
 
        <app-small-card 
        [imagem]="'https://res.cloudinary.com/daily-now/image/upload/s--BI-PwBsZ--/f_auto/v1707127555/squads/07dc8f5e-4cc5-4509-a3ac-e2ddf030c2e9'"
        [titulo]="'Agular'"
+       [link]="'content'"
        [descricao]="'Angular é um framework de código aberto desenvolvido pelo Google para a criação de aplicativos dinâmicos e interativos da web. Ele se baseia em TypeScript, uma linguagem superset do JavaScript para a construção de interfaces.'"
+       [id]="'2'"
        >
        </app-small-card>       
 
@@ -29,6 +28,8 @@
         [imagem]="'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/1200px-Typescript_logo_2020.svg.png'"
         [titulo]="'TypeScript'"     
         [descricao]="'TypeScript é uma linguagem de programação de código aberto desenvolvida pela Microsoft. É um superconjunto sintático estrito de JavaScript e adiciona tipagem estática opcional à linguagem.'"
+        [link]="'content'"
+        [id]="'3'"
         >
        </app-small-card>              
     </div>

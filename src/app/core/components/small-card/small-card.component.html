@@ -8,8 +8,10 @@
        
        <div class="small-card__title">
           <div class="small-card-descricao">
-            <h1>{{titulo}} </h1>
-            <p>{{descricao}}</p>
+            <a [routerLink]="[link, id]">
+               <h1>{{titulo}} </h1>
+               <p>{{descricao}}</p>
+            </a>
         </div>
        </div>
     
